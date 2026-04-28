@@ -12,3 +12,7 @@ int main (){
 
     mahasiswa mhs{1}; // object mhs
     mhs.ShowNim(); // Member Acces Operator
+
+    mahasiswa &refmhs = mhs;
+    refmhs.nim = 2; // Member Acces Operator    
+    mhs.ShowNim(); 

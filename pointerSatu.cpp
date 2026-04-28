@@ -16,3 +16,9 @@ int main (){
     mahasiswa &refmhs = mhs;
     refmhs.nim = 2; // Member Acces Operator    
     mhs.ShowNim(); 
+
+    mahasiswa *pmhs = &mhs; 
+    pMhs ->nim = 3; // Arrow Operator
+    pMhs -> ShowNim(); 
+    return 0;   
+}

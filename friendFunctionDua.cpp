@@ -22,3 +22,11 @@ void manusia::showNimPelajar(pelajar &x)
 {
     cout << x.nilai;
 }
+
+int main()
+{
+    manusia rafi;
+    pelajar prafi;
+    rafi.showNimPelajar(prafi);
+    return 0;
+}

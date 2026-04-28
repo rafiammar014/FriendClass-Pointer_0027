@@ -8,4 +8,7 @@ class mahasiswa{
     }
 };
 
-int main
+int main (){
+
+    mahasiswa mhs{1}; // object mhs
+    mhs.ShowNim(); // Member Acces Operator

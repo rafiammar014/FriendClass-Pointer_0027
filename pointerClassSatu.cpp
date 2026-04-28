@@ -22,3 +22,16 @@ public:
     void setId(int pId);
     void showplayAll(orang &a);
 };
+
+void siswa::displayAll(orang &a)
+{             
+    cout << id << endl << a.nama << endl;
+}
+void orang ::setNama(string pNama)
+{
+    nama = pNama;
+}
+void siswa::setId(int pId)
+{
+    id = pId;
+}  
